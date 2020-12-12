@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Hariton/static/css/main.a3e99fbb.chunk.css",
+    "main.js": "/Hariton/static/js/main.83262dd0.chunk.js",
+    "main.js.map": "/Hariton/static/js/main.83262dd0.chunk.js.map",
+    "runtime-main.js": "/Hariton/static/js/runtime-main.d2bab3f9.js",
+    "runtime-main.js.map": "/Hariton/static/js/runtime-main.d2bab3f9.js.map",
+    "static/css/2.4df9e7ca.chunk.css": "/Hariton/static/css/2.4df9e7ca.chunk.css",
+    "static/js/2.4350f892.chunk.js": "/Hariton/static/js/2.4350f892.chunk.js",
+    "static/js/2.4350f892.chunk.js.map": "/Hariton/static/js/2.4350f892.chunk.js.map",
+    "index.html": "/Hariton/index.html",
+    "static/css/2.4df9e7ca.chunk.css.map": "/Hariton/static/css/2.4df9e7ca.chunk.css.map",
+    "static/css/main.a3e99fbb.chunk.css.map": "/Hariton/static/css/main.a3e99fbb.chunk.css.map",
+    "static/js/2.4350f892.chunk.js.LICENSE.txt": "/Hariton/static/js/2.4350f892.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2bab3f9.js",
+    "static/css/2.4df9e7ca.chunk.css",
+    "static/js/2.4350f892.chunk.js",
+    "static/css/main.a3e99fbb.chunk.css",
+    "static/js/main.83262dd0.chunk.js"
+  ]
+}
