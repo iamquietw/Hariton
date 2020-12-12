@@ -1,23 +1,129 @@
-.div-center {
+#card_skins {
+    background-image: url("https://sun9-59.userapi.com/impf/TeiTYWUlspTqHY-QdvZ5NvacFtWh9lrAhZ79GQ/h4BbuwvtNo0.jpg?size=1280x639&quality=96&proxy=1&sign=4d463dec669d610cc86c342ce2e3d8e4&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_skins_parent {
     display: table;
-    margin: 0 auto;
 }
 
-.div-center img {
-    width: 10rem;
+#card_skins_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25%;
+    white-space: nowrap;
 }
 
-.buttons-group {
-    display: flex;
+#card_mechanics {
+    background-image: url("https://sun9-18.userapi.com/impf/q_Z0IMQ1C3uhQBC11jWZ7XZrMtwbOE6qZ3B0WA/jBCMDKn7_FM.jpg?size=1280x720&quality=96&proxy=1&sign=aa720363aac8aff2496c63d2e6864e4c&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.buttons-group button:first-child {
-    margin-right: 8px;
+#card_mechanics_parent {
+    display: table;
 }
 
-a, div, img, p, button {
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -webkit-tap-highlight-color: transparent;
+#card_mechanics_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10%;
+}
+
+#card_info {
+    background-image: url("https://sun9-35.userapi.com/impf/HBkFRFKMwujwUM3VEXT5V7H5p7smN61cs2ClZA/Cm1Fe4mGizk.jpg?size=460x215&quality=96&proxy=1&sign=3771c579aa16277a9d74825129489c92&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_info_parent {
+    display: table;
+}
+
+#card_info_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6%;
+}
+
+#card_ranks {
+    background-image: url("https://sun9-57.userapi.com/impf/D0mhqW29r727anOrDxDxrMbR90q7tifKc6DOow/V4iX2C1C3Lg.jpg?size=1280x720&quality=96&proxy=1&sign=135b68cadff93c2d1c323493c59dcf81&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_ranks_parent {
+    display: table;
+}
+
+#card_ranks_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6%;
+}
+
+#card_modes {
+    background-image: url("https://sun9-2.userapi.com/impf/4cxEcSV63mNMnXUzy2yIRTEj8TJ6O7M8VJwJnw/tYy1imIfad0.jpg?size=1080x1080&quality=96&proxy=1&sign=dddc2a127e0e623bec5e704465d99613&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_modes_parent {
+    display: table;
+}
+
+#card_modes_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 24%;
+}
+
+#card_test {
+    background-image: url("https://sun9-66.userapi.com/impf/l0feD03R0bQyCMrVijcnzUid_WuSW89mf-3Z1w/HgXcwBoypvE.jpg?size=600x600&quality=96&proxy=1&sign=167f8023be17a2bbf52f4f376203d31d&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_test_parent {
+    display: table;
+}
+
+#card_test_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 24%;
+}
+
+#card_tactic {
+    background-image: url("https://sun9-56.userapi.com/impf/JP_ixG_7UsS7T_rfwb21zyMfNTt0yHZsZT19SA/lh9PvxKIaNQ.jpg?size=1080x1080&quality=96&proxy=1&sign=caf18bf17e9e5c111767d8cbe2360b31&type=album");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#card_tactic_parent {
+    display: table;
+}
+
+#card_tactic_text {
+    font-family: "SF Pro Display Semibold", monospace;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 24%;
 }

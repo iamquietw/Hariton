@@ -15,7 +15,7 @@ import {setStory} from "./js/store/router/actions";
 import '@vkontakte/vkui/dist/vkui.css';
 import './css/main.css';
 
-import App from './App';
+import App from './AppWithoutEpic';
 
 export const store = createStore(rootReducer, composeWithDevTools(
     applyMiddleware(thunk),

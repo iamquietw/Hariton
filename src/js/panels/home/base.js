@@ -3,7 +3,9 @@ import {connect} from 'react-redux';
 
 import {closePopout, goBack, openModal, openPopout, setPage} from '../../store/router/actions';
 
-import {Div, Panel, Alert, Group, Button, PanelHeader} from "@vkontakte/vkui"
+import {Div, Panel, Alert, Group, Button, PanelHeader, CardGrid, Card} from "@vkontakte/vkui"
+
+import "../../../css/main.css"
 
 class HomePanelBase extends React.Component {
 
@@ -40,25 +42,63 @@ class HomePanelBase extends React.Component {
 
         return (
             <Panel id={id}>
-                <PanelHeader>Examples</PanelHeader>
+                <PanelHeader>Академия CS:GO</PanelHeader>
                 <Group>
                     <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('home', 'groups')}>Список моих
-                            групп</Button>
+                        <CardGrid>
+                            <Card id="card_mechanics" size="m" mode={"shadow"}>
+                                <div id={"card_mechanics_parent"} style={{ height: 96 }}>
+                                    <div id={"card_mechanics_text"}>
+                                        Особенности
+                                        механики игры
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id="card_skins" size="m" mode={"shadow"}>
+                                <div id="card_skins_parent" style={{ height: 96 }}>
+                                    <div id={"card_skins_text"}>
+                                        Скины
+
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id={"card_info"} size="l" mode={"shadow"}>
+                                <div id={"card_info_parent"} style={{ height: 96 }}>
+                                    <div id={"card_info_text"}>
+                                        История и другая информация об игре
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id={"card_ranks"} size="l" mode={"shadow"}>
+                                <div id={"card_ranks_parent"} style={{ height: 96 }}>
+                                    <div id={"card_ranks_text"}>
+                                        Всё о званиях и соревновательном режиме
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id="card_modes" size="s" mode={"shadow"}>
+                                <div id={"card_modes_parent"} style={{ height: 96 }}>
+                                    <div id={"card_modes_text"} >
+                                        Режимы
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id={"card_test"} size="s" mode={"shadow"}>
+                                <div id={"card_test_parent"} style={{ height: 96 }}>
+                                    <div id={"card_test_text"}>
+                                        Тесты
+                                    </div>
+                                </div>
+                            </Card>
+                            <Card id={"card_tactic"} size="s" mode={"shadow"}>
+                                <div id={"card_tactic_parent"} style={{ height: 96 }}>
+                                    <div id={"card_tactic_text"}>
+                                        Тактики
+                                    </div>
+                                </div>
+                            </Card>
+                        </CardGrid>
                     </Div>
-                    <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => this.openPopout()}>Открыть алерт</Button>
-                    </Div>
-                    <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => this.props.openModal("MODAL_PAGE_BOTS_LIST")}>Открыть
-                            модальную страницу</Button>
-                    </Div>
-                    {withoutEpic && <Div>
-                        <Button mode="secondary" size="l" stretched={true} onClick={() => setPage('modal', 'filters')}>Открыть модальное окно</Button>
-                    </Div>}
-                    {this.state.showImg && <Div className="div-center">
-                        <img src="https://vk.com/sticker/1-12676-256" alt="Стикер VK"/>
-                    </Div>}
                 </Group>
             </Panel>
         );

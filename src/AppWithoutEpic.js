@@ -13,8 +13,6 @@ import HomePanelGroups from './js/panels/home/groups';
 import HomeBotsListModal from './js/components/modals/HomeBotsListModal';
 import HomeBotInfoModal from './js/components/modals/HomeBotInfoModal';
 
-import MorePanelExample from './js/panels/more/example';
-
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -94,7 +92,6 @@ class App extends React.Component {
                         history={history}
                         onSwipeBack={() => goBack()}
                     >
-                        <MorePanelExample id="filters"/>
                     </View>
                 </Root>
             </ConfigProvider>
